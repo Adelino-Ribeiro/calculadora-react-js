@@ -1,6 +1,7 @@
 * {
   font-family: cursive;
 }
+
 .app-container {
   align-content: center;
   width: 100%;
@@ -8,7 +9,7 @@
   font-family: cursive;
 }
 
-.calculator {
+.calculator { 
   justify-content: center;
   display: grid;
   grid-template-columns: repeat(4, 50px);
@@ -35,4 +36,6 @@ button {
   margin: 2px;
 }
 
-button.operator {  background-color: lightgray; }
+button.operator {
+  background-color: lightgray;
+}

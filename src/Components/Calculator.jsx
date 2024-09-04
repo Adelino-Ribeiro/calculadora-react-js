@@ -1,5 +1,6 @@
 import CalcButton from "./CalcButton";
 import { useState } from "react";
+import '../style.css';
 
 
 function Calculator() {
@@ -74,7 +75,6 @@ function Calculator() {
   }
 
   function handleEquals() {
-    alert("clicked");
     const total = doCalculation();
 
     setCalc({
